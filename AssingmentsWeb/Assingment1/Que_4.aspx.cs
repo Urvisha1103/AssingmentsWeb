@@ -13,5 +13,20 @@ namespace AssingmentsWeb.Assingment1
         {
 
         }
+
+        protected void ddlColors_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            string selectedColor = ddlColors.SelectedValue;
+            if (!string.IsNullOrEmpty(selectedColor))
+            {
+                lblResult.Text = $"You selected: {selectedColor}";
+                lblResult.ForeColor = System.Drawing.Color.FromName(selectedColor);
+            }
+            else
+            {
+                lblResult.Text = "Please select a valid color.";
+                lblResult.ForeColor = System.Drawing.Color.Black;
+            }
+        }
     }
 }
