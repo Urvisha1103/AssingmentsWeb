@@ -13,11 +13,11 @@
         <br />
         <div>
             <asp:DropDownList ID="DropDownList1" runat="server" AutoPostBack="True" OnSelectedIndexChanged="DropDownList1_SelectedIndexChanged">
+                <asp:ListItem Selected>Question</asp:ListItem>
                 <asp:ListItem>Question 1</asp:ListItem>
                 <asp:ListItem>Question 2</asp:ListItem>
                 <asp:ListItem>Question 3</asp:ListItem>
                 <asp:ListItem>Question 4</asp:ListItem>
-                <asp:ListItem Selected>Question</asp:ListItem>
             </asp:DropDownList>
         </div>
     </form>

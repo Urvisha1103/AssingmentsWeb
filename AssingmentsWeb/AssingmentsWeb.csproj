@@ -72,6 +72,7 @@
     <Content Include="Assingment1\Que_2.aspx" />
     <Content Include="Assingment1\Que_3.aspx" />
     <Content Include="Assingment1\Que_4.aspx" />
+    <Content Include="DemoMasterWebForm.aspx" />
     <Content Include="MainPage.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -111,6 +112,19 @@
     <Compile Include="Assingment1\Que_4.aspx.designer.cs">
       <DependentUpon>Que_4.aspx</DependentUpon>
     </Compile>
+    <Compile Include="DemoMasterPage.Master.cs">
+      <DependentUpon>DemoMasterPage.Master</DependentUpon>
+    </Compile>
+    <Compile Include="DemoMasterPage.Master.designer.cs">
+      <DependentUpon>DemoMasterPage.Master</DependentUpon>
+    </Compile>
+    <Compile Include="DemoMasterWebForm.aspx.cs">
+      <DependentUpon>DemoMasterWebForm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DemoMasterWebForm.aspx.designer.cs">
+      <DependentUpon>DemoMasterWebForm.aspx</DependentUpon>
+    </Compile>
     <Compile Include="MainPage.aspx.cs">
       <DependentUpon>MainPage.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -121,6 +135,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="DemoMasterPage.Master" />
     <None Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
