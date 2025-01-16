@@ -23,7 +23,7 @@
           <a class="nav-link active" aria-current="page" href="Assingment1/Assi1.aspx">Assignment 1</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Assignment 2</a>
+          <a class="nav-link" href="Assingment2/Assi2.aspx">Assignment 2</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#">Assignment 3</a>

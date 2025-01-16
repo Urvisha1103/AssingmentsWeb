@@ -72,8 +72,16 @@
     <Content Include="Assingment1\Que_2.aspx" />
     <Content Include="Assingment1\Que_3.aspx" />
     <Content Include="Assingment1\Que_4.aspx" />
+    <Content Include="Assingment2\A2_Que1.aspx" />
+    <Content Include="Assingment2\A2_Que2.aspx" />
+    <Content Include="Assingment2\A2_Que3.aspx" />
+    <Content Include="Assingment2\Ads.xml" />
+    <Content Include="Assingment2\Assi2.aspx" />
+    <Content Include="Assingment2\images\digital-agriculture.png" />
+    <Content Include="Assingment3\Validation_control.aspx" />
     <Content Include="DemoMasterWebForm.aspx" />
     <Content Include="MainPage.aspx" />
+    <Content Include="MultiView_Control.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -112,8 +120,44 @@
     <Compile Include="Assingment1\Que_4.aspx.designer.cs">
       <DependentUpon>Que_4.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Assingment2\A2_Que1.aspx.cs">
+      <DependentUpon>A2_Que1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Assingment2\A2_Que1.aspx.designer.cs">
+      <DependentUpon>A2_Que1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Assingment2\A2_Que2.aspx.cs">
+      <DependentUpon>A2_Que2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Assingment2\A2_Que2.aspx.designer.cs">
+      <DependentUpon>A2_Que2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Assingment2\A2_Que3.aspx.cs">
+      <DependentUpon>A2_Que3.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Assingment2\A2_Que3.aspx.designer.cs">
+      <DependentUpon>A2_Que3.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Assingment2\Assi2.aspx.cs">
+      <DependentUpon>Assi2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Assingment2\Assi2.aspx.designer.cs">
+      <DependentUpon>Assi2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Assingment3\Validation_control.aspx.cs">
+      <DependentUpon>Validation_control.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Assingment3\Validation_control.aspx.designer.cs">
+      <DependentUpon>Validation_control.aspx</DependentUpon>
+    </Compile>
     <Compile Include="DemoMasterPage.Master.cs">
       <DependentUpon>DemoMasterPage.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="DemoMasterPage.Master.designer.cs">
       <DependentUpon>DemoMasterPage.Master</DependentUpon>
@@ -131,6 +175,13 @@
     </Compile>
     <Compile Include="MainPage.aspx.designer.cs">
       <DependentUpon>MainPage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MultiView_Control.aspx.cs">
+      <DependentUpon>MultiView_Control.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MultiView_Control.aspx.designer.cs">
+      <DependentUpon>MultiView_Control.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
