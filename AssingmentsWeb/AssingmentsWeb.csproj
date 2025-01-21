@@ -81,7 +81,8 @@
     <Content Include="Assingment3\Validation_control.aspx" />
     <Content Include="DemoMasterWebForm.aspx" />
     <Content Include="MainPage.aspx" />
-    <Content Include="MultiView_Control.aspx" />
+    <Content Include="Assingment3\MultiView_Control.aspx" />
+    <Content Include="Registration.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -176,14 +177,21 @@
     <Compile Include="MainPage.aspx.designer.cs">
       <DependentUpon>MainPage.aspx</DependentUpon>
     </Compile>
-    <Compile Include="MultiView_Control.aspx.cs">
+    <Compile Include="Assingment3\MultiView_Control.aspx.cs">
       <DependentUpon>MultiView_Control.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="MultiView_Control.aspx.designer.cs">
+    <Compile Include="Assingment3\MultiView_Control.aspx.designer.cs">
       <DependentUpon>MultiView_Control.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Registration.aspx.cs">
+      <DependentUpon>Registration.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Registration.aspx.designer.cs">
+      <DependentUpon>Registration.aspx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Content Include="DemoMasterPage.Master" />
